@@ -541,3 +541,223 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 30px;
     justify-content: center;
     gap: 25px;
 }
+
+
+.story{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 254, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.titleTxt3{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 800px;
+    
+
+}
+.titleTxt3 h2{
+    font-size: 2.25rem;
+    color:  rgb(120 53 15);
+    font-weight: 700;
+}
+
+
+.titleTxt3 p{
+    font-size: 1.125rem;
+    color: rgb(180 83 9);
+    text-align: center;
+    line-height: 1.65rem;
+
+}
+
+.container3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.storycard1{
+    height: 260px;
+    width: 370px;
+    border: solid 1px rgb(253 230 184) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+
+}
+
+.storycard1pic {
+    margin: 0;
+    background-image: url("room2.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    width: 370px;
+    border-radius: 10px;
+
+}
+
+.storycard2{
+    height: 260px;
+    width: 370px;
+    border: solid 1px rgb(253 230 184) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+
+}
+
+.storycard2pic {
+    margin: 0;
+    background-image: url("chef.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    width: 370px;
+    border-radius: 10px;
+
+}
+.storycard3{
+    height: 260px;
+    width: 370px;
+    border: solid 1px rgb(253 230 184) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+
+}
+
+.storycard3pic {
+    margin: 0;
+    background-image: url("room1.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    width: 370px;
+    border-radius: 10px;
+
+}
+
+.subcards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.subcard1{
+    height: 180px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+
+}
+
+#subcard1pic {
+    margin: 0;
+    background-image: linear-gradient(to left,#f97316,#f8b84e);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#subcard1pic img{
+    height: 35px;
+    width: 35px;
+}
+
+#subcardtxt h2{
+    color: rgb(120 53 15);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+#subcardtxt p{
+    font-size: 1rem;
+    color: rgb(180 83 9);
+    text-align: center;
+    line-height: 1.65rem;
+
+}
+
+.subcard2{
+    height: 180px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+
+}
+
+#subcard2pic {
+    margin: 0;
+    background-image: linear-gradient(to left,#f97316,#f8b84e);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#subcard2pic img{
+    height: 35px;
+    width: 35px;
+}
+
+.subcard3{
+    height: 180px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+
+}
+
+#subcard3pic {
+    margin: 0;
+    background-image: linear-gradient(to left,#f97316,#f8b84e);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#subcard3pic img{
+    height: 35px;
+    width: 35px;
+}
